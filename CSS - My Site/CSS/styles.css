@@ -1,22 +1,42 @@
-body{
+body {
   margin: 0;
+  text-align: center;
 }
-h1{
-  margin-top:0;
+
+h1 {
+  margin-top: 0;
 }
-.top-container{
+
+.top-container {
   background-color: #E4F9F5;
+  position: relative;
+  padding-top: 100px;
 }
-.middle-container{
+
+.middle-container {
   background-color: red;
   width: 200px;
   height: 200px;
 }
-.bottom-container{
+
+.bottom-container {
   background-color: blue;
   width: 200px;
   height: 200px;
 }
-.pro{
+
+.pro {
   text-decoration: underline;
+}
+
+.bottom-cloud {
+  position: absolute;
+  left: 300px;
+  bottom: 300px;
+}
+
+.top-cloud {
+  position: absolute;
+  right: 300px;
+  top: 50px;
 }
