@@ -1,8 +1,9 @@
 body {
+  color: #40514E;
   margin: 0;
   text-align: center;
   font-family: 'Merriweather', serif;
-  font-size: 200%;
+  font-size: 125%;
 }
 
 h1 {
@@ -17,11 +18,16 @@ h2 {
   color: #66BFBF;
   font-family: 'Montserrat', sans-serif;
   font-size: 2.5rem;
+  font-weight: bolder;
+  padding-bottom: 10px;
 }
 
 h3 {
   color: #11999E;
   font-family: 'Montserrat', sans-serif;
+}
+p {
+  line-height: 2;
 }
 
 .top-container {
@@ -31,7 +37,7 @@ h3 {
 }
 
 .middle-container {
-
+  margin: 100px 0;
 }
 
 .bottom-container {
@@ -51,10 +57,21 @@ h3 {
 .top-cloud {
   position: absolute;
   right: 300px;
-  top: 50px;
+  top: 40px;
 }
 .skill-row {
   width: 50%;
   margin: 100px auto 100px auto;
   text-align: left;
+}
+.code-img {
+  width: 20%;
+  float: left;
+  margin-right: 30px;
+}
+
+.system-img {
+  width: 20%;
+  float: right;
+  margin-left: 30px;
 }
