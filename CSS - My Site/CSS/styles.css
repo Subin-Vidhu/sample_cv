@@ -2,18 +2,25 @@ body {
   margin: 0;
   text-align: center;
   font-family: 'Merriweather', serif;
+  font-size: 200%;
 }
 
 h1 {
-  margin-top: 0;
+  color: #66BFBF;
+  font-size: 5.625rem;
+  margin: 50px auto 0 auto;
   font-family: 'Sacramento', cursive;
+  font-weight: normal;
 }
 
 h2 {
+  color: #66BFBF;
   font-family: 'Montserrat', sans-serif;
+  font-size: 2.5rem;
 }
 
 h3 {
+  color: #11999E;
   font-family: 'Montserrat', sans-serif;
 }
 
@@ -28,7 +35,7 @@ h3 {
 }
 
 .bottom-container {
-  
+
 }
 
 .pro {
